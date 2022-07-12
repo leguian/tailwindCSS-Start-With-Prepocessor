@@ -9,6 +9,14 @@ html {
 }
 
 @layer components {
+  body {
+    min-height: 400vh;
+  }
+  p {
+    &:not(:last-child) {
+      @apply mb-6;
+    }
+  }
   .button {
     @apply
     bg-purple-500
@@ -18,11 +26,10 @@ html {
     text-white
     hover:bg-purple-700
     ;
+    > * {
+      background-color: blue;
+      @apply border-b-2;
+    }
   }
 }
 
-.button {
-  > * {
-    background-color: blue;
-  }
-}

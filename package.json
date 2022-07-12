@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
-    "postcss-nesting": "^10.1.10",
-    "tailwindcss": "^3.1.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "postcss-import": "^14.1.0"
+    "postcss-import": "^14.1.0",
+    "tailwindcss": "^3.1.5"
   },
   "scripts": {
     "start": "npx tailwindcss -i ./src/input.scss -o ./dist/output.css --postcss --watch"

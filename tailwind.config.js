@@ -4,12 +4,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    {
-      'postcss-import': {},
-      'tailwindcss/nesting': 'postcss-nesting',
-      tailwindcss: {},
-      autoprefixer: {},
-    }
-  ]
+  plugins: []
 }
