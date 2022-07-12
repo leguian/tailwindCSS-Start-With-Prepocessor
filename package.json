@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
+    "postcss-nesting": "^10.1.10",
     "tailwindcss": "^3.1.5"
   },
   "devDependencies": {
@@ -12,7 +14,7 @@
     "postcss-import": "^14.1.0"
   },
   "scripts": {
-    "start": "npx tailwindcss -i ./src/input.scss -o ./dist/output.css --watch"
+    "start": "npx tailwindcss -i ./src/input.scss -o ./dist/output.css --postcss --watch"
   },
   "author": "",
   "license": "ISC"

@@ -20,3 +20,9 @@ html {
     ;
   }
 }
+
+.button {
+  > * {
+    background-color: blue;
+  }
+}
